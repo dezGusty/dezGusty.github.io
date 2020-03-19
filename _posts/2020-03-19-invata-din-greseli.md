@@ -2,10 +2,8 @@
 layout: post
 title: Învață din greșeli
 ---
-
 ## Intro
 
-:romania:  
 Acum câțiva ani scriam pe un blog numit [cultivat-în-ro](https://cultivatinro.wordpress.com/).  
 
 M-am uitat peste chestiile pe care le-am scris și sunt în mare parte inutile. Pe alocuri pentru că nu mai sunt neapărat de acord cu ideile de acolo după ce m-am mai maturizat puțin. În alte locuri pentru că ce am scris nu comunică ceva concret sau suficient de bine, sau abordez subiecte care sunt expirate. Pur și simplu nu mai sunt de actualitate și nu ajută pe nimeni să citească postările respective.
