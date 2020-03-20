@@ -4,19 +4,19 @@ title: Principiile se probează în vremuri de criză
 ---
 
 Principiile: sunt chestiile alea pe care spui sau crezi că le ai tot timpul, dar care sunt testate cu adevărat doar în momente de criză.
-În criză e un moment bun să vezi ce e important cu adevărat pentru că nu ț. Voit sau nu, vei face o prioritizare.
+În criză e un moment bun să vezi ce e important cu adevărat. Voit sau nu, vei face o prioritizare.
 Asta se aplică atât în plan personal cât și pentru organizații și societăți umane.
 
 Ei bine, suntem pe 20 martie 2020, criza a venit într-o formă medicală, și deja e clar că a venit (sau va veni dacă nu se simte încă) și în formă economică.
 
-La cald despre Covid-19
+La cald despre Covid-19.
 
 ## România
 
 Am rămas plăcut impresionat de modul în care au reacționat autoritățile din România. Credeam că date fiind premizele, vom fi loviți puternic.
 
 - pornind de la un sistem medical subfinanțat și insuficient dotat.
-- legături cu Italia care era deja o sursă sigură de răspândire.
+- legături cu Italia (care era deja o sursă sigură de răspândire).
 - ideea generală că statul e plin de oameni care sunt fie corupți, fie incompetenți și nu va putea reacționa eficient sau la timp.
 
 Ce am văzut însă a fost un set de acțiuni bune, distribuite eșalonat pe o săptămână. Cred că asta a redus nivelul de panică.
@@ -41,7 +41,7 @@ Aș zice ceva de principii, dar mai bine mă abțin momentan.
 Părerea mea e că sistemul medical din SUA e destul de nasol pentru omul de rând și va fi pus la încercare în criza medicală curentă.
 Puțin context însă: eu nu am fost în State, părerile mele sunt legate de ce am văzut și auzit din bula pe care o urmăresc pe youtube, care foarte probabil o fi de stânga predominant ("mama lor de socialiști comuniști").
 
-Sistemul medical din State e în principiu foarte scump. Deci e nasol pentru cei care nu și-l permit și duce la comportamente absurde în care oamenii refuză să folosească anumite servicii pentru a nu fi facturați. Impresia mea e că sunt mulți în situația asta.
+Sistemul medical din State e în principiu doarte bun, dar foarte scump. Deci e nasol pentru cei care nu și-l permit și duce la comportamente absurde în care oamenii refuză să folosească anumite servicii pentru a nu fi facturați. Impresia mea e că sunt mulți în situația asta.
 
 Poate sistemul lor medical e superior și toți banii pe care îi bagă în el vor da roade. Vom vedea la finalul crizei. Feeling-ul meu e că nu.
 
