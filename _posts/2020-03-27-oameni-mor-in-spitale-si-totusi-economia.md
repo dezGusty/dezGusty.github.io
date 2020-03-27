@@ -3,7 +3,16 @@ layout: post
 title: Oamenii mor în spitale... și totuși economia…
 ---
 
-Cred că o mare parte din răspunsurile aiurea de la începutul crizei Covid-19 țin de calcule economice din partea autorităților. Și de gestionarea riscurilor: ce se întâmplă sigur cu economia dacă pornim carantina? Ce se întâmplă poate cu virusul ăsta? Scăpăm? Doar amânăm până la încă o rundă? Câți mor în plus sau în minus? Care sunt șansele în procente pentru fiecare scenariu posibil?
+Cred că o mare parte din răspunsurile aiurea de la începutul crizei Covid-19 țin de calcule economice din partea autorităților. Și de gestionarea riscurilor:
+
+- ce se întâmplă sigur cu economia dacă pornim carantina?
+- Ce se întâmplă poate cu virusul ăsta?
+  - Scăpăm?
+  - Doar amânăm până la încă o rundă?
+  - Câți mor în plus sau în minus?
+    - Pot da vina pe ăia de dinainte?
+    - Îmi afectează șansele de re-alegere?
+- Care sunt șansele în procente pentru fiecare scenariu posibil?
 
 Sunt convins că avem acces la mult mai puține informații decât factorii de decizie (ceea ce e normal).
 
