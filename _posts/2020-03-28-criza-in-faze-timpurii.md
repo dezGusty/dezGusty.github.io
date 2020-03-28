@@ -13,7 +13,11 @@ _Am amânat puțin să public chestia asta. De aceea pentru cei care citesc acum
 
 > FC Barcelona vrea să reducă salariile jucătorilor săi pe perioada pandemiei Covid-19, anunţă presa spaniolă
 
-E lăudabilă încercarea. Mai ales că nu am auzit de la alții să facă ceva similar. Dar scara la care se aplică e optimistă. Ăsta e doar începutul în condițiile în care activează într-un domeniu care:
+E lăudabilă încercarea. Mai ales că nu am auzit de la alții să facă ceva similar. Dar scara la care se aplică e optimistă, sau e făcută mai mult ca un exercițiu de imagine.
+
+> Noi am făcut cât am putut, dar nu putem mai mult. Ajutați-ne voi, Statul, cineva!
+
+Ăsta e doar începutul în condițiile în care activează într-un domeniu care:
 
 - nu produce ceva în perioada curentă
 - nu prea are cum să creeze bani în perioada asta (și dacă ar face streaming la ceva, nu prea vin sponsori să arunce cu milioane acum)
