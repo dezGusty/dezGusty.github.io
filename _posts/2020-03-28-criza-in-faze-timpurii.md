@@ -11,6 +11,8 @@ _Am amânat puțin să public chestia asta. De aceea pentru cei care citesc acum
 
 > Selecţionerul Norvegiei a acceptat reducerea cu 20 la sută a salariului, în contextul crizei cauzate de coronavirus
 
+și
+
 > FC Barcelona vrea să reducă salariile jucătorilor săi pe perioada pandemiei Covid-19, anunţă presa spaniolă
 
 E lăudabilă încercarea. Mai ales că nu am auzit de la alții să facă ceva similar. Dar scara la care se aplică e optimistă, sau e făcută mai mult ca un exercițiu de imagine.
