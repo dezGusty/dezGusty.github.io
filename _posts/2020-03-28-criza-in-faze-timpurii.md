@@ -15,6 +15,12 @@ _Am amânat puțin să public chestia asta. De aceea pentru cei care citesc acum
 
 E lăudabilă încercarea. Mai ales că nu am auzit de la alții să facă ceva similar. Dar scara la care se aplică e optimistă, sau e făcută mai mult ca un exercițiu de imagine.
 
+(Update: pe 1 aprilie a apărut știrea că [și FRF reduce cu 20% salariile](https://www.cronica.ro/frf-anunta-ca-a-redus-cu-20-salariile/))
+
+> Federaţia Română de Fotbal anunţă că a hotărât ca începând cu luna aprilie, toate salariile angajaţilor FRF, inclusiv din zona tehnică, să fie diminuate cu 20 la sută, având în vedere situaţia actuală din fotbalul românesc, situaţie cauzată de evoluţia pandemiei COVID-19, în spiritul solidarităţii întregii familii a fotbalului românesc
+
+Rămâne însă faptul că e puțin.
+
 > Noi am făcut cât am putut, dar nu putem mai mult. Ajutați-ne voi, Statul, cineva!
 
 Ăsta e doar începutul în condițiile în care activează într-un domeniu care:
@@ -23,7 +29,8 @@ E lăudabilă încercarea. Mai ales că nu am auzit de la alții să facă ceva 
 - nu prea are cum să creeze bani în perioada asta (și dacă ar face streaming la ceva, nu prea vin sponsori să arunce cu milioane acum)
 - e divertisment, deci în caz de perioade economice dure, orice om normal la cap la ăla renunță întâi, nu la mâncare, cazare sau apă caldă.
 
-Astea sunt știri să te facă să râzi mai încolo.
+Astea sunt știri să te facă să râzi sau să te enervezi mai încolo.
+Acum sunt o grămadă de meme-uri cu râs. Să vedem câți mai putem râde mai încolo. Sper că vom fi cât mai mulți, pentru că râsul e terapeutic, și un mecanism de gestionare a stresului.
 ![ha-ha-ha-tom-cruise]({{ site.baseurl }}/images/2020-03-28-tom-cruise-laughing-meme.jpg)
 
 ## În jos
@@ -36,7 +43,9 @@ La scurt timp după știrea din sport de mai sus au început să apară știri c
 
 Cred că e clar pentru toată lumea că vin dezechilibre mari. Băi, dar nu avea nimeni previziuni de recesiune globală când în China era scădere a vânzărilor auto de ~90%. (Acum o lună. Sau cei care aveau, se pregăteau, dar nu ziceau.)
 
-Hai să facem un calcul simplu. Doar dacă nu sunt productivi oamenii 2 săptămâni pe an (în perioadă în care ar face ceva), avem deja scădere economică de ~4% (calcul total simplistic, fără concedii, fără bolnavi, fără domenii afectate inegal, etc.).
+Hai să facem un calcul simplu. Doar dacă nu sunt productivi oamenii 2 săptămâni pe an (în perioadă în care ar face ceva), avem deja scădere economică de ~4% (calcul total simplistic, fără morți, fără concedii, fără bolnavi, fără domenii afectate inegal, etc.).
+
+Asta era acum 2 săptămâni. Între timp se pare că scenariile vehiculate sunt mult mai multe și variate. Și se întind pe perioade mult mai mari de timp.
 
 ## Ce a vrut să spună autorul
 
