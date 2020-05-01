@@ -5,7 +5,7 @@ title: Experiența anterioară
 
 Despre fiecare criză economică din trecut s-a scris suficient de mult. Dar una este când citești despre ce ar însemna criza, alta e când o trăiești. Din punctul ăsta de vedere poate cei mai tineri sunt dezavantajați din cauză că nu au la fel de multă experiență anterioară, să recunoască semnele ei.
 
-Dar dacă există o criză mult diferită față de ce a mai fost și unde să nu conteze la fel de mult experiența anterioară, asta ar trebui să fie.
+Dar dacă există o criză mult diferită față de ce a mai fost și unde să nu conteze la fel de mult experiența anterioară, asta ar trebui să fie. Dacă aș fi trăit și prin cea din 1919, puteam să îmi dau cu părerea și despre respectiva mult mai coerent.
 
 ### 2008
 
