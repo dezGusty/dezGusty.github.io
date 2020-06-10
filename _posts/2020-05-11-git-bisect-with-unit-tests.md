@@ -34,14 +34,19 @@ OK        * fd34a276 make style more consistent for buttons
 Git bisect needs some info to run:
 
 - when was your repo OK?
-  - for me, it was a bit back (E.g. fd34a276)
+  - for me, it was a bit back (E.g. `fd34a276`)
 - when was your repo BAD?
-  - well, it's bad now, so use the latest (E.g. 8d3a3d25)
+  - well, it's bad now, so use the latest (E.g. `8d3a3d25`)
 - what command can you run to identify a repo version as good or bad?
   - well, I had some unit tests, so I can execute those.
-  - I can use MSBuild to build the solution, I can then run VSTest.Console.exe to run the unit tests.
-  - And I can check the %ERRORLEVEL% to check the result for them.
+  - I'm using Visual Studio, so I can also use `MSBuild` to build the solution from the command line. I can then run `VSTest.Console.exe` to run the unit tests from the command line.
+  - And I can check the `%ERRORLEVEL%` to check the result for them.
   - I'll simply use a plain old batch file, as I'm comfortable with those.
+
+I'll use 2 batch files (full code available below):
+
+- `rungitbisect.bat` initiates the git bisect process
+- `buildandruntest.bat` builds the Visual Studio project and executes the tests.
 
 ## Execution
 
@@ -49,42 +54,42 @@ I executed git bisect for the input mentioned just before and got the following 
 
 1. It first checked out:
 
-- [`c8e15e1a`] css cleanup.
-  ```cmd
-  Bisecting: 4 revisions left to test after this (roughly 2 steps)
-  [c8e15e1a35fa9023c5f5828fbc32efed2ea7ca51] css cleanup
-  ```
-- It built and executed the tests. Got result:
-  ```cmd
-  Total tests: 12. Passed: 12. Failed: 0. Skipped: 0.
-  Test Run Successful.✔
-  ```
+  - [`c8e15e1a`] css cleanup.
+    ```cmd
+    Bisecting: 4 revisions left to test after this (roughly 2 steps)
+    [c8e15e1a35fa9023c5f5828fbc32efed2ea7ca51] css cleanup
+    ```
+  - It built and executed the tests. Got result:
+    ```cmd
+    Total tests: 12. Passed: 12. Failed: 0. Skipped: 0.
+    Test Run Successful.✔
+    ```
 
 2. Next it checked out:
 
-- [`3d00e283`]
-  ```cmd
-  Bisecting: 2 revisions left to test after this (roughly 1 step)
-  [3d00e283dff3663c24e94df568ccda8d7f631bbe] added Not to test
-  ```
-- It built and executed the tests. Got result:
-  ```cmd
-  Total tests: 12. Passed: 11. Failed: 1. Skipped: 0.
-  Test Run Failed.❌
-  ```
+  - [`3d00e283`]
+    ```cmd
+    Bisecting: 2 revisions left to test after this (roughly 1 step)
+    [3d00e283dff3663c24e94df568ccda8d7f631bbe] added Not to test
+    ```
+  - It built and executed the tests. Got result:
+    ```cmd
+    Total tests: 12. Passed: 11. Failed: 1. Skipped: 0.
+    Test Run Failed.❌
+    ```
 
 3. Next, it moves on to:
 
-- [`a88c0d27`]
-  ```cmd
-  Bisecting: 0 revisions left to test after this (roughly 0 steps)
-  [a88c0d276892f5906e50e234c3595fac22bab841] css cleanup
-  ```
-- It built and executed the tests. Got result:
-  ```cmd
-  Total tests: 12. Passed: 12. Failed: 0. Skipped: 0.
-  Test Run Successful.✔
-  ```
+  - [`a88c0d27`]
+    ```cmd
+    Bisecting: 0 revisions left to test after this (roughly 0 steps)
+    [a88c0d276892f5906e50e234c3595fac22bab841] css cleanup
+    ```
+  - It built and executed the tests. Got result:
+    ```cmd
+    Total tests: 12. Passed: 12. Failed: 0. Skipped: 0.
+    Test Run Successful.✔
+    ```
 
 4. The first BAD commit, when the tests started failing was identified and displayed:
 
@@ -140,3 +145,82 @@ Set TestProjectName=MySolutionWebClient-mstest
 Set Configuration=Debug
 Rem === End Parameter section ===
 ```
+
+## Full scripts
+
+Here's the full code for `rungitbisect.bat`:
+
+```cmd
+@Echo Off
+SetLocal EnableDelayedExpansion
+SetLocal EnableExtensions
+
+Rem === Begin Parameter section ===
+Set goodGitHash=fd34a27
+Set badGitHash=8d3a3d2
+Set batchNameInThisDir=buildandruntest.bat
+Set vscmd="c:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\Tools\VsDevCmd.bat"
+Rem === End Parameter section ===
+
+Set calledBatch=%~dp0%!batchNameInThisDir!
+Call !vscmd!
+
+Rem Operation
+PushD d:\work\ap-flow
+git bisect start
+git bisect good !goodGitHash!
+git bisect bad !badGitHash!
+git bisect run !calledBatch!
+
+For /F "tokens=* USEBACKQ" %%F IN (`git rev-parse --short HEAD`) DO (
+  Set hashcode=%%F
+)
+Echo.
+Echo.--- == === Finished === == ---
+Echo.
+Echo.The most recent commit when tests were working: [!hashcode!]
+Echo.
+git bisect reset
+PopD
+```
+
+And here it is for `buildandruntest.bat`:
+
+```cmd
+@Echo Off
+SetLocal EnableDelayedExpansion
+SetLocal EnableExtensions
+
+Rem === Begin Parameter section ===
+Set SolutionDir=d:\work\my-solution\
+Set TestProjectName=MySolutionWebClient-mstest
+Set Configuration=Debug
+Rem === End Parameter section ===
+
+Set result=0
+
+Rem === Build the solution ===
+PushD !SolutionDir!!TestProjectName!
+Call msbuild !TestProjectName!.csproj /t:Rebuild /p:Configuration=!Configuration! /v:quiet
+Echo.MSBuild result ERRORLEVEL: %ERRORLEVEL%
+PopD
+
+Rem === Run the tests ===
+PushD !SolutionDir!!TestProjectName!\bin\!Configuration!
+VSTest.Console.exe !TestProjectName!.dll
+IF %ERRORLEVEL% EQU 0 (
+  Rem Test execution: all successful
+  Echo.    OK.
+  Set result=0
+
+) Else (
+  Rem Test execution: at least 1 failed
+  Echo.    Some tests failed.
+  Set result=1
+)
+PopD
+
+Exit /B !result!
+```
+
+Hope it helps.
