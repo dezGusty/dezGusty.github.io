@@ -32,7 +32,7 @@ Care e cel mai memorabil lucru cu care am rămas? Faptul că pe plajă era plin 
 - Haideți că e vegetale, doamnele cu tâțe goale!
 - Arde, frige nu mai sta, să vă ia pe toți pofta!
 - Arde, frige nu mai sta, lua-v-ar pofta să vă ia!
-- Ia uite cat e de mare, ca banana plutitoare!
+- Ia uite cât e de mare, ca banana plutitoare!
 - Cea mai mare șmecherie, ați venit la Eforie.
 - Ce-aveți voi turiștii mei, de nu mâncați porumbei?
 - Am porumbul cu Viagra, s-o nenorocești pe baba!
