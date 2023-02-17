@@ -29,4 +29,12 @@ Stress and COVID 19: Improving The Immune System, Anxiety, and Depression: <http
 
 Politica din jurul hidroxiclorochinei, când fiecare dintre noi devenise expert: <https://www.youtube.com/watch?v=N2TeFu0hMEA> .
 
+Situația la zi pentru cazurile depistate în Brașov - prezentate pe situl primăriei: ultima lor actualizare este de pe 27-aprilie-2022: <https://covid19.brasovcity.ro/grafice_evolutie>.
+
+> Verificat și în februarie 2023. Aceeași stare.
+
+Situația la zi pentru cazurile depistate în Brașov - prezentate pe situl DSP: <https://dspbv.ro/>.
+
+> Încă este activ în februarie 2023. Se pare că incidența curentă este de 0.39 la nivel de județ și 0.52 la nivel de municipiu.
+
 Sper să nu am nevoie de altele prea curând.
