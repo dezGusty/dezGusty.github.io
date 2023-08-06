@@ -3,9 +3,7 @@ layout: post
 title: Modificări ascunse
 ---
 
-## Vârsta
-
-Pe măsură ce îmbătrânesc îmi dau seama că sunt implicat în prea multe lucruri și că trebuie să încep să îmi reduc expunerea la aceste lucruri, deoarece devine tot mai obositor să fac față tuturor modificărilor.
+O fi vârsta ? Pe măsură ce îmbătrânesc îmi dau seama că sunt implicat în prea multe lucruri și că trebuie să încep să îmi reduc expunerea la aceste lucruri, deoarece devine tot mai obositor să fac față tuturor modificărilor.
 
 ## Depind de alții
 
