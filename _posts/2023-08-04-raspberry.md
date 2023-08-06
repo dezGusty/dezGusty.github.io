@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Raspberry PI
+title: Raspberry PI 🍓
 ---
 
-## Apreciez eficiența, dar și frugalitatea
-
-În hardware de multe ori duc către același lucru, dar nu întotdeauna.
+Apreciez eficiența, dar și frugalitatea. În hardware de multe ori duc către același lucru, dar nu întotdeauna.
 De exemplu, un procesor ar putea fi foarte eficient, realizând multe operații pe secundă, la 100W.
 Poate pentru majoritatea sarcinilor ar fi suficient și un procesor care face treaba de 100 de ori mai lent, dar la 5W.
-Aparent ar fi de 5 ori mai ineficient, dar are și anumite avantaje:
+Aparent ar fi de 5 ori mai ineficient, dar văd și anumite avantaje:
 
 1. Pune un sistem de alarmă problemelor de performanță.
   Dacă greșesc ceva ca developer (iar eu greșesc din belșug), nu este imediat aparent în performanță dacă procesorul poate duce lejer de 1000 de ori mai multe operații decât necesarul. Cu ceva lent, devine aparent mult mai repede.
