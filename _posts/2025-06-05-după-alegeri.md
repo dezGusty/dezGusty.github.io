@@ -6,7 +6,7 @@ title: După alegeri
 Alegerile au venit, au trecut. Dezamăgirea pentru mulți rămâne.
 Și nu e chiar surprinzător că s-a ajuns aici.
 
-Dar cu trezirea la realitate de după invazia rusească, s-a discutat recent și de activarea unor fabrici de muniții, în zone precum Victoria.
+Dar cu trezirea la realitate de după invazia rusească, s-a discutat recent și de activarea unor fabrici de muniții, în zone precum Victoria. M-a făcut curios, căci nu am vizitat orașul.
 În ziua de azi, te poți plimba pe Google Maps prin multe locuri din țară.
 Dacă te plimbi prin Victoria însă pe Google Maps în iunie 2025, vei fi transportat înapoi în timp, dar nu-ți vei da seama imediat.
 
